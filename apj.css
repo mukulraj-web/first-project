@@ -1,0 +1,54 @@
+h1 {
+    padding: 0;
+    margin: -10PX;
+    text-align: center;
+    background-color:aqua;
+    height: 50px;
+    font-size:40px;
+    font-family: cursive;
+}
+h1:hover {
+    color: greens;
+}
+abbr {
+    text-decoration: none;
+}
+
+#picture {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    transition: transform 1s ;
+}
+#picture:hover  { 
+    transform: scale(2);
+}
+#h2 {
+    font-weight:bolder;
+    font-size: 30px;
+}
+#main1 {
+    height: 750px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    text-align:left;
+    font-family: cursive;
+}
+body {
+    background-color: blue;
+}
+#link {
+    color: white;
+    transition: all;
+
+}
+#link:hover {
+    color:red;
+    transform: scale(2);
+}
+#link:active {
+    transform: scale(2);
+  
+}
